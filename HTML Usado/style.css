@@ -1,44 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: Arial, sans-serif; /* Define a fonte principal */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    background-color: #f4f4f9; /* Define a cor de fundo */
+    color: #333; /* Define a cor do texto */
 }
 
 h1, h2 {
-    text-align: center;
-    color: #444;
-    margin-top: 20px;
+    text-align: center; /* Centraliza o texto */
+    color: #444; /* Define a cor do texto */
+    margin-top: 20px; /* Adiciona margem superior */
 }
 
 p {
-    text-align: center;
-    margin: 10px auto;
-    width: 80%;
+    text-align: center; /* Centraliza o texto */
+    margin: 10px auto; /* Adiciona margem vertical e centraliza horizontalmente */
+    width: 80%; /* Define a largura do parágrafo */
 }
 
 pre {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow-x: auto;
+    background-color: #fff; /* Define a cor de fundo */
+    border: 1px solid #ddd; /* Adiciona uma borda cinza */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin: 20px auto; /* Adiciona margem vertical e centraliza horizontalmente */
+    width: 80%; /* Define a largura do bloco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao bloco */
+    overflow-x: auto; /* Permite rolagem horizontal para conteúdo longo */
 }
 
 code {
-    font-family: "Courier New", Courier, monospace;
-    color: #007BFF;
+    font-family: "Courier New", Courier, monospace; /* Define a fonte monoespaçada */
+    color: #007BFF; /* Define a cor do texto */
 }
 
 a {
-    color: #007BFF;
-    text-decoration: none;
+    color: #007BFF; /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
